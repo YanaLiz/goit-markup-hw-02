@@ -11,14 +11,12 @@
 
 }
 body{
-position: relative;
 background-color: var(--white);
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 color:var(--grey-text);
 line-height: 1.14;
-list-style-type: none;
-text-decoration: none;
+
 }
 
 
@@ -74,25 +72,30 @@ color: var(--blue);
 
 .button-list:hover,
 .button-list:focus {
-    color: var(--blue);
+    color: var(--white);
+    background-color: #2196f3;
     
 }
 .button-list-a:hover,
 .button-list-a:focus {
-color: var(--blue);
+color: var(--white);
+background-color: #2196f3;
 }
 
 .button-list-b:hover,
 .button-list-b:focus {
-    color: var(--blue);
+    color: var(--white);
+    background-color: #2196f3;
 }
 .button-list-c:hover,
 .button-list-c:focus{
-    color: var(--blue);
+    color: var(--white);
+background-color: #2196f3;
 }
 
 .current {
-color: var(--blue);
+color: var(--black-text);
+
 }
 
 
@@ -114,10 +117,12 @@ background-color: var(--black-bg);
 .block{
 font-family: "Roboto";
 font-style: normal;
+text-align: center;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.06em;
 }
 
 .portfolio-list{
@@ -139,17 +144,28 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 
-letter-spacing: 0.03em;
+letter-spacing: 0.06em;
 color: var(--black-text);
 }
 
 .title{
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
 text-align: center;
 font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
 color: var(--black-text);
 }
 
 .title-title{
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
 text-align: center;
 }
 
@@ -194,8 +210,16 @@ color: var(--black-text);
 .about-title{
 color: var(--black-text);
 text-transform: uppercase;
+font-size: 14px;
+    line-height: 1.7;
 }
-
+.about-list{
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;  
+}
 
 .text,
 .group{
@@ -213,20 +237,12 @@ font-weight: 500;
 line-height: 1.6;
 letter-spacing: 0.03em;
 border: 0px;
-height: 38px;
-width: 128px;
-left: 576px;
-top: 174px;
-
 }
 
 
 
 .button-list-a{
-height: 38px;
-width: 145px;
-left: 712px;
-top: 174px;
+
 border-radius: 4px;
 font-family: "Roboto";
 font-style: normal;
@@ -238,10 +254,7 @@ background:var(--grey-bg);
 }
 
 .button-list-b{
-height: 38px;
-width: 130px;
-left: 976px;
-top: 174px;
+
 border-radius: 4px;
 background: var(--grey-bg);
 border: 0px;
@@ -255,10 +268,7 @@ color: var(--black-text);
 }
 
 .button-list-c{
-height: 38px;
-width: 128px;
-left: 576px;
-top: 174px;
+
 border-radius: 4px;
 background: var(--grey-bg);
 border-radius: 4px;
