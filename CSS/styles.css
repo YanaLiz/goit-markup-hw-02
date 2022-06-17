@@ -73,28 +73,36 @@ color: var(--blue);
 .button-list:hover,
 .button-list:focus {
     color: var(--white);
-    background-color: #2196f3;
+    background-color: var(--blue);
     
 }
 .button-list-a:hover,
 .button-list-a:focus {
 color: var(--white);
-background-color: #2196f3;
+background-color: var(--blue);
 }
 
 .button-list-b:hover,
 .button-list-b:focus {
     color: var(--white);
-    background-color: #2196f3;
+    background-color: var(--blue);
 }
 .button-list-c:hover,
 .button-list-c:focus{
     color: var(--white);
-background-color: #2196f3;
+    background-color: var(--blue);
+
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--blue);
 }
 
-.current {
+.current,
+.curent:hover,
+.curent:focus {
 color: var(--black-text);
+color: var(--blue);
 
 }
 
@@ -147,10 +155,12 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--black-text);
 }
-
+.teksting{
+    font-size: 16px;
+    font-weight: 1.87;
+}
 .title{
 font-family: "Roboto";
-font-style: normal;
 font-weight: 500;
 text-align: center;
 font-size: 16px;
@@ -161,8 +171,6 @@ color: var(--black-text);
 
 .title-title{
 font-family: "Roboto";
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -217,7 +225,6 @@ font-size: 14px;
 font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 1.7;  
 }
 
