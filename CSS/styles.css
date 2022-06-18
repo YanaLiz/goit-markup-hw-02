@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 14px;
 color:var(--grey-text);
 line-height: 1.14;
-
+font-style: normal;
 }
 
 
@@ -65,7 +65,7 @@ color: var(--blue);
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
-    color: var(--black-text);
+    background-color: var(--bluedark);
 }
 
 
